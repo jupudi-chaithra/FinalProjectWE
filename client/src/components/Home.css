@@ -1,0 +1,107 @@
+h1
+{
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+    margin-top: 150px;
+    color: #6096BA;
+}
+
+p
+{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    width: 280px;
+    margin: auto;
+    padding-top: 30px;
+    color: #274C77;
+}
+
+.chatImage
+{
+    height: 190px;
+    padding-right: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 8px;
+}
+
+h2
+{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 32px;
+    color: #274C77;
+    margin: 5px;
+}
+
+h3
+{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    color: #6096BA;
+    padding: 10px;
+}
+
+h5
+{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 25px;
+    color: #6096BA;
+    padding: 5px;
+}
+
+.centre
+{
+    text-align: center;
+}
+
+table
+{
+    /* text-align: center; */
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: #274c77 2px solid;
+    box-shadow: 1px 1px 5px #274C77;
+}
+
+th
+{
+    padding: 3px;
+    border: #274c77 2px solid;
+}
+
+td
+{
+    border-right: #274C77 2px solid;
+}
+
+
+@media screen and (max-width: 576px)
+{
+    .chatImage
+    {
+        height: 75px;
+    }
+    h2
+    {
+        font-size: 20px;
+    }
+    h5
+    {
+        font-size: 15px;
+    }
+    h1
+    {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    .chatImage
+    {
+        display: none;
+    }
+}
